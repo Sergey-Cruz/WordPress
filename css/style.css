@@ -4,6 +4,11 @@
     padding: 0;
 }
 
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
 .container {
     position: relative;
     width: 1140px;
@@ -23,7 +28,6 @@
 
 .logo .logo_text {
     color: #FFFFFF;
-    font-family: Roboto;
     font-size: 15px;
     font-weight: 500;
     line-height: 24px;
@@ -38,9 +42,8 @@ h1 {
 
 .title {
     color: #F9BF3B;
-    font-family: "Roboto - Black";
     font-size: 41px;
-    font-weight: 400;
+    font-weight: 900;
     line-height: 24px;
     text-transform: uppercase;
     text-align: center;
@@ -53,9 +56,8 @@ h1 {
 .simple .title_big {
 
     color: #FFFFFF;
-    font-family: "Roboto - Black";
     font-size: 80px;
-    font-weight: 400;
+    font-weight: 900;
     text-transform: uppercase;
     text-align: center;
     margin-top: 21px;
@@ -64,8 +66,8 @@ h1 {
 .promo .promo_text {
     padding: 0 13px;
     margin-top: 23px;
+    font-family: "Roboto";
     color: #FFFFFF;
-    font-family: "Roboto Light";
     font-size: 21px;
     font-weight: 300;
     line-height: 28px;
@@ -74,7 +76,7 @@ h1 {
 
 .promo .promo_text span {
     color: #F9BF3B;
-    font-family: "Roboto - Bold";
+    font-family: "Roboto";
     font-weight: 700px;
 }
 
@@ -89,9 +91,9 @@ h1 {
     background-image: linear-gradient(to top, #2798B9 0%, #3AB6DA 100%);
     text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.22);
     color: #FFFFFF;
-    font-family: "Roboto Condensed";
+    /* font-family: "Roboto"; */
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 200;
     line-height: 24px;
     text-transform: uppercase;
     cursor: pointer;
@@ -104,9 +106,9 @@ h1 {
 
 .more .more_text {
     color: #FFFFFF;
-    font-family: "Roboto - Thin";
+    /* font-family: "Roboto"; */
     font-size: 15px;
-    font-weight: 400;
+    font-weight: 100;
     text-transform: uppercase;
     text-align: center;
 }
@@ -175,7 +177,7 @@ h1 {
 .waiting .waiting_wraper .waiting_item .waiting_descr {
     margin-top: 33px;
     color: #4a4a4a;
-    font-family: Robobto;
+    font-family: Roboto;
     font-size: 15px;
     font-weight: 300;
     line-height: 21px;
