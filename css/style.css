@@ -350,12 +350,12 @@ h1 {
     line-height: 0.87;
 }
 
-.footer {
+footer {
     min-height: 100px;
     background-color: #1a1a1a;
 }
 
-.footer .support,
+footer .support,
 .support_text,
 .confidens,
 .phone,
